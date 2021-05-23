@@ -23,7 +23,7 @@ DWORD WINAPI MyThreadFunction(LPVOID lpParam)
 int main(int argc, char* argv[])
 {
 	HANDLE myhandle;
-	DWORD mythreadid, dwThrdParam = 100;
+	DWORD mythreadid, dwThrdParam = 1000;
 
 
 	myhandle = CreateThread(
